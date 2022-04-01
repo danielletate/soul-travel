@@ -42,6 +42,7 @@ function Destinations() {
 
   return (
     <div>
+      {/* Render wrapper component with data from destinations  */}
       <Wrapper>
         <h1>Featured destinations</h1>
         <div className="destinations">

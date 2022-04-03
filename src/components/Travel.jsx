@@ -111,6 +111,10 @@ const Card = styled.div`
       font-weight: 500;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    
+  }
 `;
 
 export default Travel;

@@ -134,6 +134,48 @@ const Section = styled.section`
       }
     }
   }
+
+  /* Mobile */
+  @media screen and (max-width: 768px) {
+    height: 25rem;
+    .background {
+      img {
+        height: 100%;
+      }
+    }
+    .content {
+      .title {
+        h1 {
+          font-size: 2rem;
+          margin-top: 5rem;
+        }
+        p {
+          font-size: 0.8rem;
+        }
+      }
+      .search {
+        flex-direction: column;
+        padding: 0.8rem;
+        gap: 0.5rem;
+        margin-top: 2rem;
+        .where .when {
+          padding: 0 0.8rem;
+        }
+        button {
+          font-size: 1rem;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .content {
+      .title {
+        margin-top: -4.5rem;
+      }
+    }
+  }
 `;
 
 export default Hero;

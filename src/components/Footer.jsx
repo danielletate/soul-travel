@@ -16,14 +16,14 @@ import {
 export default function Footer() {
   return (
     <FooterContainer>
-      <footer class="footer-flex">
-        <div class="footer-left">
+      <footer className="footer-flex">
+        <div className="footer-left">
           <div className="logo">
             <img src={logo} alt="footer-logo" />
           </div>
 
-          <p class="footer-links">
-            <a href="#" class="link-1">
+          <p className="footer-links">
+            <a href="#" className="link-1">
               Home
             </a>
 
@@ -38,12 +38,12 @@ export default function Footer() {
             <a href="#">Contact</a>
           </p>
 
-          <p class="footer-company-name">
+          <p className="footer-company-name">
             Copyright &copy; 2022 Soul Travel. All rights reserved
           </p>
         </div>
 
-        <div class="footer-center">
+        <div className="footer-center">
           <div className="address">
             <div className="icon">
               <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>
@@ -70,14 +70,14 @@ export default function Footer() {
           </div>
         </div>
 
-        <div class="footer-right">
-          <p class="footer-company-about">
+        <div className="footer-right">
+          <p className="footer-company-about">
             <span>About our company</span>
             Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce
             euismod convallis velit, eu auctor lacus vehicula sit amet.
           </p>
 
-          <div class="footer-icons">
+          <div className="footer-icons">
             <a href="#">
               <FontAwesomeIcon icon={faFacebookF}></FontAwesomeIcon>
             </a>

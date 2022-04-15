@@ -98,7 +98,10 @@ const Nav = styled.nav`
 
   /* Mobile */
   @media screen and (max-width: 768px) {
+    html,
     body {
+      padding: 0;
+      margin: 0;
       overflow-x: hidden;
     }
     .nav-links {
@@ -120,7 +123,6 @@ const Nav = styled.nav`
       display: block;
     }
   }
-
   @media screen and (max-width: 1024px) {
     .nav-links {
       gap: 1rem;

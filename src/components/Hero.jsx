@@ -137,17 +137,23 @@ const Section = styled.section`
 
   /* Mobile */
   @media screen and (max-width: 768px) {
-    height: 25rem;
+    height: 28rem;
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
     .background {
       img {
         height: 100%;
       }
     }
     .content {
+      margin: 2.5rem auto;
       .title {
         h1 {
           font-size: 2rem;
-          margin-top: 5rem;
         }
         p {
           font-size: 0.8rem;
@@ -156,21 +162,46 @@ const Section = styled.section`
       .search {
         flex-direction: column;
         padding: 0.8rem;
-        gap: 0.5rem;
+        gap: 1rem;
         margin-top: 2rem;
-        .where .when {
-          padding: 0 0.8rem;
+        .where {
+          display: flex;
+          gap: 2rem;
+          label {
+            width: 104%;
+          }
+          input {
+            width: 100%;
+          }
+        }
+        .when {
+          display: flex;
+          gap: 2rem;
+          label {
+            width: 104%;
+          }
+          input {
+            width: 100%;
+          }
         }
         button {
           font-size: 1rem;
           margin-top: 2rem;
+          width: 100%;
         }
       }
     }
   }
 
   @media screen and (max-width: 1024px) {
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
     .content {
+      padding: 2rem;
       .title {
         margin-top: -4.5rem;
       }

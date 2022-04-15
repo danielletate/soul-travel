@@ -78,9 +78,21 @@ const Card = styled.div`
     }
   }
   @media screen and (max-width: 720px) {
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
   @media screen and (max-width: 1080px) {
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+    }
     grid-template-columns: repeat(2, 1fr);
   }
 `;
